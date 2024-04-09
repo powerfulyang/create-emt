@@ -1,7 +1,7 @@
 {
   "name": "create-emt",
   "type": "module",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@8.15.3",
   "description": "Create EMT project",
   "author": "powerfulyang <i@powerfulyang.com>",
@@ -14,23 +14,7 @@
   "bugs": "https://github.com/powerfulyang/create-emt/issues",
   "keywords": [],
   "sideEffects": false,
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs"
-    }
-  },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "typesVersions": {
-    "*": {
-      "*": [
-        "./dist/*",
-        "./dist/index.d.ts"
-      ]
-    }
-  },
+  "bin": "dist/index.mjs",
   "files": [
     "dist"
   ],
